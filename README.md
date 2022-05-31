@@ -5,7 +5,7 @@
 ![image](https://user-images.githubusercontent.com/73651038/171151391-56f9aaf6-ccc4-40ca-96bd-6279cd0c8515.png)
 
 * Include Search Function
-* 
+
 ![image](https://user-images.githubusercontent.com/73651038/171151456-6b8c549e-c278-4b06-9bc4-85c0e42f9e83.png)
 
 * Displaying data according to Its category and its Sub category
