@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Task</title>
+</head>
+<body>
+    <form action="" method="GET">
+        <label for="id_typeOfCat">Category: </label>
+        <select name="typeOfCat" id="id_typeOfCat">
+            <option value="">All Category</option>
+            <option value="category_level1">category_level1</option>
+            <option value="category_level2">category_level2</option>
+            <option value="category_level3">category_level3</option>
+        </select>
+    </form>
+    <br>
+    <br>
+    <div id="showData">
+
+    </div>
+    <br>
+    <br>
+    <table class="table table-sortable content-table">
+        <thead>
+            <tr>
+                <th class="table-header-title">
+                    ID
+                </th>
+                <th class="table-header-title">
+                    Name
+                </th>
+                <th class="table-header-title">
+                    Category Level 1
+                </th>
+                <th class="table-header-title">
+                    Category Level 2
+                </th>
+                <th class="table-header-title">
+                    Category Level 3
+                </th>
+            </tr>
+            <tr>
+                <th>
+                    <input type="text" class="search-input" hidden placeholder="ID">
+                </th>
+                <th>
+                    <input type="text" class="search-input" placeholder="Name">
+                </th>
+                <th>
+                    <input type="text" class="search-input" hidden placeholder="Category Level 1">
+                </th>
+                <th>
+                    <input type="text" class="search-input" hidden placeholder="Category Level 2">
+                </th>
+                <th>
+                    <input type="text" class="search-input" hidden placeholder="Category Level 3">
+                </th>
+            </tr>
+        </thead>
+        <tbody id="dataJsonTable">
+
+        </tbody>
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>
