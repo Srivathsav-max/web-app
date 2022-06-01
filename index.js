@@ -46,7 +46,7 @@ document.getElementById('id_typeOfCat').onchange = function() {
     var typeOfCat = document.getElementById('id_typeOfCat').value;
 
     var xhr = new XMLHttpRequest();
-    xhr.open('GET', 'http://localhost:5500/data.json', true);
+    xhr.open('GET', 'http://srivathsav.me/web-app/data.json', true);
     xhr.onload = function() {
         if (this.status == 200) {
             var jsonData = JSON.parse(this.responseText);
